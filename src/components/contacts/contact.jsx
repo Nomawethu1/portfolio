@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import './contact.css';
 import {MdEmail} from 'react-icons/md'
 import {FaWhatsappSquare} from 'react-icons/fa'
-
 import emailjs from 'emailjs-com';
 
 
@@ -15,8 +14,8 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-     
+    emailjs.sendForm('service_6kcpia9', 'template_482uxu8', form.current, 'Koi_4kyNInUshSbT8')
+     e.target.reset();
   };
 
   return (
@@ -43,7 +42,7 @@ const Contact = () => {
         
         {/* End of contact option */}
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
             <input type="text" name='name' placeholder='Your full name' required/>
             <input type="email" name='email' placeholder='Your Email' required/>
             <textarea type="message" rows="7" placeholder='Your Message' required  />

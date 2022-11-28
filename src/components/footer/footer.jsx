@@ -5,7 +5,7 @@ import './footer.css';
 const footer = () => {
   return (
     <footer>
-        <a href="#" className='footer__logo'>Egator</a>
+        <a href="#" className='footer__logo'>Nomawethu</a>
         <ul className='permalinks'>
           <li> <a href="#">Home</a> </li>
           <li> <a href="#about">About</a> </li>
@@ -16,7 +16,7 @@ const footer = () => {
         </ul>
 
         <div className="footer__copyright">
-          <small>&copy; Egator tutorials. All rights reserved.</small>
+          <small>&copy; All rights reserved.</small>
         </div>
     </footer>
   )

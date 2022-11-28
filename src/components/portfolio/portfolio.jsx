@@ -16,7 +16,7 @@ const portfolio = () => {
           <div className="portfolio__itaem-img">
             <img src={Img4} alt="" />
             <h3>Employee database</h3>
-            <a href="https://github.com/Nomawethu1/apartmentfinder" className='btn btn-primary'>GitHub</a>
+            <a href="https://github.com/Nomawethu1/EmployeesDatabase" className='btn btn-primary'>GitHub</a>
           </div>
         </article>
 
@@ -24,7 +24,7 @@ const portfolio = () => {
           <div className="portfolio__itaem-img">
             <img src={Img3} alt="" />
             <h3>CRUD</h3>
-            <a href="https://github.com/Nomawethu1/apartmentfinder" className='btn btn-primary'>GitHub</a>
+            <a href="https://github.com/Nomawethu1/CRUD" className='btn btn-primary'>GitHub</a>
           </div>
         </article>
 

@@ -3,7 +3,7 @@ import './nav.css';
 import{AiFillHome} from 'react-icons/ai'
 import{AiOutlineUser} from 'react-icons/ai'
 import{BiBookOpen} from 'react-icons/bi'
-import{RiServiceLine} from 'react-icons/ri'
+// import{RiServiceLine} from 'react-icons/ri'
 import{AiOutlineContacts} from 'react-icons/ai'
 import {useState} from 'react';
 
@@ -17,7 +17,7 @@ const Nav = () => {
       <a href="#"onClick={()=>setActiveNav('#')} className={activeNav ==='#' ? 'active' : ''} ><AiFillHome/></a>   
       <a href="#about" onClick={()=>setActiveNav('#about')} className={activeNav ==='#about' ? 'active' : ''} ><AiOutlineUser/></a>
       <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav ==='#experience' ? 'active' : ''}><BiBookOpen/></a>
-      <a href="#services" onClick={()=>setActiveNav('#services')} className={activeNav ==='#services' ? 'active' : ''} ><RiServiceLine/></a>
+      {/* <a href="#services" onClick={()=>setActiveNav('#services')} className={activeNav ==='#services' ? 'active' : ''} ><RiServiceLine/></a> */}
       <a href="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav ==='#contact' ? 'active' : ''} ><AiOutlineContacts/></a>
 
     </nav>

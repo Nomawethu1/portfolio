@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 import Cta from './cta';
-import Profpic from '../../assets/profpic.jpeg'
+import Profpic from '../../assets/portfolio.jpg'
 import HearderSocials from './hearderSocials';
 
 

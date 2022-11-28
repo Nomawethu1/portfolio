@@ -14,16 +14,8 @@ const portfolio = () => {
       <div className="container portfolio__container">
         <article className='portfolio__item'>
           <div className="portfolio__itaem-img">
-            <img src={Img1} alt="" />
-            <h3>This is a portfolio item tittle</h3>
-            <a href="https://github.com/Nomawethu1/apartmentfinder" className='btn btn-primary'>GitHub</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__itaem-img">
-            <img src={Img2} alt="" />
-            <h3>This is a portfolio item tittle</h3>
+            <img src={Img4} alt="" />
+            <h3>Employee database</h3>
             <a href="https://github.com/Nomawethu1/apartmentfinder" className='btn btn-primary'>GitHub</a>
           </div>
         </article>
@@ -31,18 +23,26 @@ const portfolio = () => {
         <article className='portfolio__item'>
           <div className="portfolio__itaem-img">
             <img src={Img3} alt="" />
-            <h3>This is a portfolio item tittle</h3>
+            <h3>CRUD</h3>
             <a href="https://github.com/Nomawethu1/apartmentfinder" className='btn btn-primary'>GitHub</a>
           </div>
         </article>
 
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
+          <div className="portfolio__itaem-img">
+            <img src={Img3} alt="" />
+            <h3>This is a portfolio item tittle</h3>
+            <a href="https://github.com/Nomawethu1/apartmentfinder" className='btn btn-primary'>GitHub</a>
+          </div>
+        </article> */}
+
+        {/* <article className='portfolio__item'>
           <div className="portfolio__itaem-img">
             <img src={Img4} alt="" />
             <h3>This is a portfolio item tittle</h3>
             <a href="https://github.com/Nomawethu1/apartmentfinder" className='btn btn-primary'>GitHub</a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   )

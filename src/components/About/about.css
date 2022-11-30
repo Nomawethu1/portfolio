@@ -18,12 +18,12 @@
     place-items: center;
 }
 
-.about__me-img{
+/* .about__me-img{
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-}
+} */
 
 .about__me-img:hover{
     transform: rotate(0);

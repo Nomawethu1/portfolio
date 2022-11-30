@@ -9,7 +9,7 @@ const experience = () => {
       <h2>My experience</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>frontend Development</h3>
+          <h3>Frontend Development</h3>
           <div className="experience__content">
               <article>
                 <div className="experience__details">
@@ -25,7 +25,7 @@ const experience = () => {
                   <BsPatchCheckFill className="experience__details-icon"/>
                   <div>
                   <h4>CSS</h4>
-                  <small className='text-light'>Intermedite</small>
+                  <small className='text-light'>Experienced</small>
                   </div>
                 </div>
               </article>
@@ -34,7 +34,7 @@ const experience = () => {
                   <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
                  <h4>JAVA Script</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Intermedite</small>
                  </div>
                 </div>
               </article>
@@ -61,7 +61,7 @@ const experience = () => {
                   <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
                  <h4>React</h4>
-                  <small className='text-light'>Experienced</small>
+                  <small className='text-light'>Intermedite</small>
                  </div>
                 </div>
               </article>
@@ -98,15 +98,12 @@ const experience = () => {
                   </div>
                 </div>
               </article>
-              <article>
+              {/* <article>
                 <div className="experience__details">
                   <BsPatchCheckFill className="experience__details-icon"/>
-                  <div>
-                  <h4>PHP</h4>
-                  <small className='text-light'>Experienced</small>
-                  </div>
+                  
                 </div>
-              </article>
+              </article> */}
           </div>
         
       </div>

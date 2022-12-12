@@ -16,11 +16,11 @@ const About = () => {
       <h5>get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
-        <div className="about__me">
+        {/* <div className="about__me">
           <div className="about__me-img">
-            {/* <img src={Me} alt="Profpic" /> */}
+            <img src={Me} alt="Profpic" />
           </div>
-        </div>
+        </div> */}
 
         <div className="about__content">
           <div className="about__cards">

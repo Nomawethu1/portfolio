@@ -84,7 +84,7 @@ const experience = () => {
                 <div className="experience__details">
                   <BsPatchCheckFill className="experience__details-icon"/>
                   <div>
-                  <h4>Mongo db</h4>
+                  <h4>C++</h4>
                   <small className='text-light'>Intermedite</small>
                   </div>
                 </div>
@@ -98,12 +98,7 @@ const experience = () => {
                   </div>
                 </div>
               </article>
-              {/* <article>
-                <div className="experience__details">
-                  <BsPatchCheckFill className="experience__details-icon"/>
-                  
-                </div>
-              </article> */}
+              
           </div>
         
       </div>
